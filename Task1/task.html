@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task one</title>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        <p><ins><b>Task one</b></ins></p>
+    </h1>
+    <h2 style="text-align: left;">01.Application Form</h2>
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="gender">female</label>
+        </div>
+        <div>
+            <label>CHOOSE SKILLS</label>
+            <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="js">JS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="bootstrap">BOOTSTRAP</label>
+            <input type="checkbox" name="bootstrap" id="bootstrap" >
+            <label for="react">React</label>
+            <input type="checkbox" name="react" id="react" >
+        </div>
+
+        <div>
+            <label for="job type">JOB TYPE</label>
+            <select type="text" id="job tyoe" name="your domain">
+            <option value="job type">front end developer</option>
+            <option value="job type">back end developer</option>
+            <option value="job type">full stack developer</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Choose your browser from the list:</label>
+            <input list="browser" name="browser">
+            <datalist id="browser">
+                <option value="Microsoft Edge">
+                </option>
+                <option value="Internet explorer">
+                </option>
+                <option value="Chrome">
+                </option>
+                <option value="Firefox">
+                </option>
+                <option value="safari">
+                </option>
+            </datalist>
+             <br>
+            <textarea name="about" id="about" cols="20" rows="2">give a brief summary about you</textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit" name="" id="">
+        </div>  
+    </form>
+    <h2> 02.Batch List</h2>
+    <ul>
+        <li>SENCHOLA UNIVERSITY</li>
+    </ul>
+    <ol>
+        <li>First Batch</li>
+        <ol type="A">
+            <li>Ravi</li>
+            <li>Manol</li>
+            <li>Sandhiya</li>
+        </ol>
+        <li>Second Batch</li>
+        <ol type="I">
+            <li>sundhar</li>
+            <li>Saranya</li>
+            <li>Nandhini</li>
+        </ol>
+        <li>Third Batch</li>
+        <ol type="i">
+            <li>Monika</li>
+            <li>Santhosh</li>
+            <li>Kannan</li>
+        </ol>
+
+    <h2>03.Course</h2>
+    <table border="3">
+        <thead>
+            <tr>
+                <th>S.NO 1</th>
+                <th>S.NO 2</th>
+                <th>S.NO 3</th>
+                <th>S.NO 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">REACT JS</td>
+                <td>HTML</td>
+                <td rowspan="2">REACT JS</td>
+                <td>CSS</td>
+                <tr>
+                    <td>CSS</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> JAVASCRIPT</td>
+                    <td colspan="2"> BOOTSTRAP</td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
